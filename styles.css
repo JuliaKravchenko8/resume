@@ -69,7 +69,7 @@ body {
   margin-right: 10px;
 }
 
-.tech-skills-title {
+.skills-title {
   font-size: 22px;
   font-weight: 700;
   line-height: 24px;
@@ -77,13 +77,13 @@ body {
   color: #fff;
 }
 
-.tech-skills-container {
+.skills-container {
   margin-left: 40px;
   margin-right: 40px;
   margin-top: 55px;
 }
 
-.tech-skills-item {
+.skills-item {
   font-size: 14px;
   font-weight: 400;
   line-height: 24px;
@@ -91,7 +91,7 @@ body {
   color: #ff6b08;
 }
 
-.tech-skills-text {
+.skills-text {
   color: #d8dadd;
 }
 
@@ -238,7 +238,7 @@ footer {
     display: flex;
   }
 
-  .tech-skills-row {
+  .skills-row {
     display: flex;
   }
   .my-photo {
@@ -252,7 +252,7 @@ footer {
     margin-right: 20px;
   }
 
-  .tech-skills-container {
+  .skills-container {
     margin-left: 20px;
     margin-right: 0;
     margin-top: 20px;
@@ -279,7 +279,7 @@ footer {
     font-size: 18px;
     margin-bottom: 10px;
   }
-  .tech-skills-title {
+  .skills-title {
     font-size: 18px;
     margin-bottom: 10px;
   }
