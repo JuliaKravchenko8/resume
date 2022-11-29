@@ -154,7 +154,7 @@ body {
 
 .projects-item {
   font-weight: 700;
-  margin-left: 17px;
+  margin-bottom: 15px;
 }
 
 .projects-container {
@@ -191,7 +191,7 @@ body {
 }
 
 .profession-duties-item {
-  color: #595959;
+  /* color: #595959; */
   font-size: 14px;
   font-weight: 400;
   line-height: 24px;
