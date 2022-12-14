@@ -22,7 +22,7 @@ body {
 }
 
 .sidebar {
-  background: #0c023f;
+  background: #f8f1e8;
   width: 370px;
   padding-top: 40px;
   padding-bottom: 40px;
@@ -49,28 +49,32 @@ body {
   font-size: 22px;
   font-weight: 700;
   line-height: 24px;
-  color: #fff;
+  color: #000;
   margin-bottom: 20px;
 }
 
-.contacts-link {
+.contacts-item {
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
-  color: #ffffff;
-  opacity: 50%;
+  margin-left: 15px;
+  color: #ff6b08;
 }
 
-.contacts-link-type {
+/* .contacts-link {
   font-size: 16px;
-  font-weight: 700;
+  font-weight: 400;
   line-height: 24px;
-  color: #fff;
-  margin-right: 10px;
+  color: #000;
+} */
+
+.contacts {
+  display: grid;
 }
 
-.contacts-icon {
-  margin-top: 20px;
+.contacts-link {
+  margin-top: 10px;
+  color: #000;
 }
 
 .skills-title {
@@ -78,7 +82,7 @@ body {
   font-weight: 700;
   line-height: 24px;
   margin-bottom: 20px;
-  color: #fff;
+  color: #000;
 }
 
 .skills-container {
@@ -96,7 +100,7 @@ body {
 }
 
 .skills-text {
-  color: #d8dadd;
+  color: #000;
 }
 
 .info-profession {
