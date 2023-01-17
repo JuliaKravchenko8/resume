@@ -1,3 +1,10 @@
+:root {
+  --accent-text-сolor: #000;
+  --second-text-color: #ff6b08;
+  --item-font-size: 26px;
+  --descr-font-size: 20px;
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -61,19 +68,19 @@ body {
 }
 
 .contacts-title {
-  font-size: 26px;
+  font-size: var(--item-font-size);
   font-weight: 700;
   line-height: 1.5;
-  color: #000;
+  color: var(--accent-text-сolor);
   margin-bottom: 20px;
 }
 
 .contacts-item {
-  font-size: 20px;
+  font-size: var(--descr-font-size);
   font-weight: 400;
   line-height: 1.5;
   margin-left: 15px;
-  color: #ff6b08;
+  color: var(--second-text-color);
 }
 
 .contacts {
@@ -82,15 +89,15 @@ body {
 
 .contacts-link {
   margin-top: 10px;
-  color: #000;
+  color: var(--accent-text-сolor);
 }
 
 .skills-title {
-  font-size: 26px;
+  font-size: var(--item-font-size);
   font-weight: 700;
   line-height: 1.5;
   margin-bottom: 20px;
-  color: #000;
+  color: var(--accent-text-сolor);
 }
 
 .skills-container {
@@ -100,19 +107,19 @@ body {
 }
 
 .skills-item {
-  font-size: 20px;
+  font-size: var(--descr-font-size);
   font-weight: 400;
   line-height: 1.5;
   margin-left: 15px;
-  color: #ff6b08;
+  color: var(--second-text-color);
 }
 
 .skills-text {
-  color: #000;
+  color: var(--accent-text-сolor);
 }
 
 .info-profession {
-  font-size: 26px;
+  font-size: var(--item-font-size);
   font-weight: 700;
   line-height: 1.5;
 }
@@ -124,14 +131,14 @@ body {
 }
 
 .info-description {
-  font-size: 20px;
+  font-size: var(--descr-font-size);
   font-weight: 400;
   line-height: 1.5;
   margin-top: 24px;
 }
 
 .description {
-  font-size: 20px;
+  font-size: var(--descr-font-size);
   font-weight: 400;
   line-height: 1.5;
 }
@@ -142,7 +149,7 @@ body {
 }
 
 .about-me-title {
-  font-size: 26px;
+  font-size: var(--item-font-size);
   font-weight: 700;
   line-height: 1.5;
   margin-bottom: 10px;
@@ -150,15 +157,15 @@ body {
 
 .projects-link {
   text-decoration: none;
-  color: #000;
-  font-size: 20px;
+  color: var(--accent-text-сolor);
+  font-size: var(--descr-font-size);
   font-weight: 600;
   line-height: 1.5;
 }
 
 .tech-name {
-  color: #000;
-  font-size: 20px;
+  color: var(--accent-text-сolor);
+  font-size: var(--descr-font-size);
   font-weight: 400;
   line-height: 1.5;
 }
@@ -192,12 +199,12 @@ body {
   font-size: 22px;
   font-weight: 700;
   line-height: 1.5;
-  color: #ff7011;
+  color: var(--second-text-color);
 }
 
 .profession-time {
-  color: #000;
-  font-size: 20px;
+  color: var(--accent-text-сolor);
+  font-size: var(--descr-font-size);
   font-weight: 400;
   line-height: 1.5;
   margin-top: 15px;
@@ -205,7 +212,7 @@ body {
 }
 
 .profession-divider {
-  color: #000;
+  color: var(--accent-text-сolor);
 }
 
 .profession-duties {
@@ -215,8 +222,8 @@ body {
 }
 
 .profession-duties-item {
-  color: #000;
-  font-size: 20px;
+  color: var(--accent-text-сolor);
+  font-size: var(--descr-font-size);
   font-weight: 400;
   line-height: 1.5;
 }
@@ -227,14 +234,14 @@ body {
 }
 
 .univ-name {
-  color: #ff6b08;
+  color: var(--second-text-color);
   font-size: 22px;
   font-weight: 700;
   line-height: 1.5;
 }
 
 .univ-speciality {
-  font-size: 20px;
+  font-size: var(--descr-font-size);
   font-weight: 700;
   line-height: 1.5;
   margin-bottom: 15px;
@@ -242,20 +249,6 @@ body {
 
 .education-title {
   margin-bottom: 15px;
-}
-
-footer {
-  background-color: #080c0d;
-  max-width: 1200px;
-  margin: 0 auto;
-  display: flex;
-  justify-content: center;
-}
-
-.icon {
-  padding: 0 5px;
-  width: 50px;
-  box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
 }
 
 @media screen and (max-width: 900px) {
@@ -307,11 +300,11 @@ footer {
     margin-top: 20px;
   }
   .contacts-title {
-    font-size: 26px;
+    font-size: var(--item-font-size);
     margin-bottom: 10px;
   }
   .skills-title {
-    font-size: 26px;
+    font-size: var(--item-font-size);
     margin-bottom: 10px;
   }
   .skills-row {
