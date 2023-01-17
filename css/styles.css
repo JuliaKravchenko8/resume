@@ -67,6 +67,10 @@ body {
   margin-right: 40px;
 }
 
+.contacts-list {
+  list-style: none;
+}
+
 .contacts-title {
   font-size: var(--item-font-size);
   font-weight: 700;
@@ -144,8 +148,8 @@ body {
 }
 
 .info-container {
-  margin-bottom: 55px;
-  /* margin-bottom: 30px; */
+  /* margin-bottom: 55px; */
+  margin-bottom: 30px;
 }
 
 .about-me-title {
@@ -215,13 +219,14 @@ body {
   color: var(--accent-text-сolor);
 }
 
-.profession-duties {
+.profession-duties,
+.profession-achievement {
   margin-top: 14px;
-  margin-bottom: 30px;
   list-style-position: inside;
 }
 
-.profession-duties-item {
+.profession-duties-item,
+.profession-achievement-item {
   color: var(--accent-text-сolor);
   font-size: var(--descr-font-size);
   font-weight: 400;
@@ -230,7 +235,7 @@ body {
 
 .education-container,
 .work-container {
-  margin-top: 55px;
+  margin-top: 30px;
 }
 
 .univ-name {
