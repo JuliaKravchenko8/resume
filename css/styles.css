@@ -159,6 +159,10 @@ body {
   margin-bottom: 10px;
 }
 
+.projects-list {
+  list-style: none;
+}
+
 .projects-link {
   text-decoration: none;
   color: var(--accent-text-сolor);
